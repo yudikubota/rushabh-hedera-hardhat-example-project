@@ -3,8 +3,12 @@
   "version": "1.0.0",
   "description": "This is a example hardhat project",
   "main": "index.js",
+  "engines": {
+    "node": "^18"
+  },
   "scripts": {
     "test": "npx hardhat test",
+    "deploy": "npx hardhat deploy-contract",
     "local-node": "npx @hashgraph/hedera-local restart -d"
   },
   "author": "",
